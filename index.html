@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nicki's Javascript Calculator</title>
+        <meta name="description" content="Free Code Camp Project - Create a simple Javascript calculator that can add, subtract, multiply and divide two numbers, clear and chain mathematical operations.">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron|Cute+Font' rel='stylesheet'>
+        <link rel="stylesheet" media="screen" href="styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    </head>
+    
+    <body>
+        <div class="wrap">
+          <div class="container">
+            <div class="screen"><div id="display">0
+              </div>
+              <div id="sum"></div>
+            </div>
+
+            <div class="cell"></div>
+            <div class="cell"><div class="button pink" data-num="clear">C</div></div>
+            <div class="cell symbol"><div class="button" data-num="/">/</div></div>
+            <div class="cell"><div class="button" data-num="*">x</div></div>
+
+            <div class="cell"><div class="button" data-num="7" >7</div></div>
+            <div class="cell"><div class="button" data-num="8">8</div></div>
+            <div class="cell"><div class="button" data-num="9">9</div></div>
+            <div class="cell symbol"><div class="button" data-num="-">-</div></div>
+
+            <div class="cell"><div class="button" data-num="4">4</div></div>
+            <div class="cell"><div class="button" data-num="5">5</div></div>
+            <div class="cell"><div class="button" data-num="6">6</div></div>
+            <div class="double-row symbol"><div class="button drow" data-num="+">+</div></div>
+
+            <div class="cell"><div class="button" data-num="1">1</div></div>
+            <div class="cell"><div class="button" data-num="2">2</div></div>
+            <div class="cell"><div class="button" data-num="3">3</div></div>
+
+            <div class="cell"><div class="button" data-num="0">0</div></div>
+            <div class="cell symbol"><div class="button" data-num=".">.</div></div>
+            <div class="double-col symbol"><div class="button pink" data-num="=" data-calc="true">=</div></div>
+          </div>
+        </div> <!--end .wrap -->
+        <footer><p>Made with CSS Grid by <a href="https://twitter.com/nicki_hastings/">@Nicki_Hastings</a> <a href="https://codepen.io/nickihastings/full/wjvxjr/" title="view on codepen"><img src="https://res.cloudinary.com/nhast25cs/image/upload/v1509566475/codepen_mihyqo.png" alt="codepen logo" width="24px"></a> <a href="" title="get the files from github"><img src="https://res.cloudinary.com/nhast25cs/image/upload/v1509566475/github_tsptqp.png" alt="github logo" width="24px"/></a></p></footer>
+        
+        <script src="calculator.js"></script>
+    </body>
+</html>
