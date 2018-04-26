@@ -73,6 +73,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d0d8', end
   box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.3); 
 }
 .button:hover{
+  cursor: pointer;
+}
+.button:active{
   background: -moz-linear-gradient(top, #70818e 0%, #c3d0d8 100%);
   background: -webkit-linear-gradient(top, #70818e 0%,#c3d0d8 100%);
   background: linear-gradient(to bottom, #70818e 0%,#c3d0d8 100%);
@@ -90,7 +93,7 @@ background: -webkit-linear-gradient(top, #fcaeae 0%,#fe5377 100%);
 background: linear-gradient(to bottom, #fcaeae 0%,#fe5377 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcaeae', endColorstr='#fe5377',GradientType=0 );
 }
-.button.pink:hover{
+.button.pink:active{
   background: -moz-linear-gradient(top, #fe5377 0%, #fcaeae 100%);
 background: -webkit-linear-gradient(top, #fe5377 0%,#fcaeae 100%);
 background: linear-gradient(to bottom, #fe5377 0%,#fcaeae 100%);
